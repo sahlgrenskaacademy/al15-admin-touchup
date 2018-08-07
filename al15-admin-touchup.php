@@ -43,7 +43,7 @@ add_action('admin_enqueue_scripts', 'psu_al15admin_custom_css');
 function psu_al15admin_custom_css() {
   wp_enqueue_style(
 		'al15-admin-customization',
-		plugin_dir_path( __FILE__ ) . 'al15-admin-customization.css?' . time()
+		plugin_dir_url( __FILE__ ) . 'al15-admin-customization.css?' . time()
 	);
 }
 
