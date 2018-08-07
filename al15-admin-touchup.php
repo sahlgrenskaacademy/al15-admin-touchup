@@ -24,12 +24,12 @@ if ( ! defined( 'WPINC' ) ) {
 /// Activate/Deactivate plugin /////////////////////////////////////////
 // https://developer.wordpress.org/plugins/the-basics/activation-deactivation-hooks/
 
+register_activation_hook( __FILE__, 'psu_al15admin_install' );
 function psu_al15admin_install() {
     // trigger our function that registers the custom post type
     //psu_al15admin_XXX();
 }
-register_activation_hook( __FILE__, 'psu_al15admin_install' );
 
+register_deactivation_hook( __FILE__, 'psu_al15admin_deactivation' );
 function psu_al15admin_deactivation() {
 }
-register_deactivation_hook( __FILE__, 'psu_al15admin_deactivation' );
