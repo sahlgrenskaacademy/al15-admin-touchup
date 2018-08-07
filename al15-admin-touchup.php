@@ -29,14 +29,6 @@ function psu_al15admin_remove_genesis_page_templates( $page_templates ) {
 	return $page_templates;
 }
 
-/// Remove Genesis in-post SEO Settings /////////////////////////////////////////
-if ( function_exists('genesis_add_inpost_seo_box') )
-	remove_action( 'admin_menu', 'genesis_add_inpost_seo_box' );
-
-/// Remove Genesis Layout Settings /////////////////////////////////////////
-if ( function_exists('genesis-inpost-layouts') )
-	remove_theme_support( 'genesis-inpost-layouts' );
-
 
 /// Add admin custom css /////////////////////////////////////////
 add_action('admin_enqueue_scripts', 'psu_al15admin_custom_css');
