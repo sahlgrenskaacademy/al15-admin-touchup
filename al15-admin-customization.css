@@ -19,11 +19,11 @@
 .acf-tab-group {
 	background: #eefee6;
 }
-.acf-tab-group li a {
-	background: rgba(255,255,255,0.9)!important;
+.acf-fields > .acf-tab-wrap .acf-tab-group li a {
+	background: rgba(255,255,255,0.6);
 }
-.acf-tab-group li.active a {
-	background: rgba(255,255,255,0.9)!important;
+.acf-fields > .acf-tab-wrap .acf-tab-group li.active a {
+	background: rgba(255,255,255,0.9);
 }
 
 
