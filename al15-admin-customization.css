@@ -20,10 +20,10 @@
 	background: #eefee6;
 }
 .acf-tab-group li a {
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,255,255,0.9)!important;
 }
 .acf-tab-group li.active a {
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,255,255,0.9)!important;
 }
 
 
