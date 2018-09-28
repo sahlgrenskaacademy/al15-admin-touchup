@@ -7,12 +7,26 @@
  */
 .acf-postbox {
 	background: #eefee6;
-	border: 1px solid #eee;}
+	border: 1px solid #eee;
+}
 .acf-postbox > .hndle {
-	background: #d0FEd0;}
+	background: #d0FEd0;
+}
 .acf-postbox > .inside > .field {
 	background: #eefee6;
-	border-top: 1px solid rgba(0,0,0,0.08);}
+	border-top: 1px solid rgba(0,0,0,0.08);
+}
+.acf-tab-group {
+	background: #eefee6;
+}
+.acf-tab-group li a {
+	background: rgba(255,255,255,0.9);
+}
+.acf-tab-group li.active a {
+	background: rgba(255,255,255,0.9);
+}
+
+
 
 /***************************************
  * Category Box Cleanup
